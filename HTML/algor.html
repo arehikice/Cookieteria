@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+<body>
+
+            <!--Уникально содержание страницы-->
+            <h3 align="center">Решение алгоритмической задачи</h3>
+            <p id="task_content">Даны вещественные положительные числа a, b, c, d. Выясните, может ли прямоугольник со сторонами a,b уместиться внутри прямоугольника со сторонами c,d так, чтобы каждая сторона внутреннего прямоугольника была параллельна или перпендикулярна стороне внешнего прямоугольника.</p>
+            <p>Значение A: <input type="text" id="a"> </p>
+            <p>Значение B: <input type="text" id="b"> </p>
+            <p>Значение C: <input type="text" id="c"> </p>
+            <p>Значение D: <input type="text" id="d"> </p>
+            <button onclick="abcd()">Оценить</button>
+
+<script>
+    function abcd(){
+    var a = parseInt(document.getElementById("a").value);
+   var b = parseInt(document.getElementById("b").value);
+   var c = parseInt(document.getElementById("c").value);
+   var d = parseInt(document.getElementById("d").value);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+
+     if ((a <= c && b <= d) || (a <= d && b <= c)) {
+        alert ('Прямоугольник со сторонами a,b может уместиться внутри прямоугольника со сторонами c,d');
+    }
+    else {
+       alert ('Прямоугольник со сторонами a,b не может уместиться внутри прямоугольника со сторонами c,d');
+    }
+    }
+
+</script>
+
+</body>
+</html>

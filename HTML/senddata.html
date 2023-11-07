@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>form_abc</title>
+</head>
+<body>
+<p>Даны вещественные положительные числа a, b, c, d. Выясните, может ли прямоугольник со сторонами a,b уместиться внутри прямоугольника со сторонами c,d так, чтобы каждая сторона внутреннего прямоугольника была параллельна или перпендикулярна стороне внешнего прямоугольника.</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <li>для поисковика:<input name="q" value="search"></li>
+        <li>формулировка задачи <input name="formulation"  value="Даны вещественные положительные числа a, b, c, d. Выясните, может ли прямоугольник со сторонами a,b уместиться внутри прямоугольника со сторонами c,d так, чтобы каждая сторона внутреннего прямоугольника была параллельна или перпендикулярна стороне внешнего прямоугольника."></li>
+        <li>a: <input id="a" name="a"  type="number" value=10></li>
+        <li>b: <input id="b" name="b"  type="number" value=20></li>
+        <li>c: <input id="c" name="c"  type="number" value=19></li>
+        <li>d: <input id="d" name="d"  type="number" value=40></li>
+        <li>результат решения: <input name="result" value="не определен"></li>
+        <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+    </ul>
+</form>
+<p id="result">Результаты вычислений:  </p>
+
+<script>
+    function verify() {
+    console.log("a, b, c, d")
+    let a = parseInt(elementA.value);
+    let b = parseInt(elementB.value);
+    let c = parseInt(elementC.value);
+    let d = parseInt(elementD.value);
+    console.log(a, b, c, d)
+
+    if ((a <= c && b <= d) || (a <= d && b <= c)) {
+        result = "Прямоугольник со сторонами a,b может уместиться внутри прямоугольника со сторонами c,d"
+        document.getElementById("result").innerText = messageText + result;
+        document.getElementsByName('result')[0].value = result;
+        check = true;
+    } else {
+        result = "Прямоугольник со сторонами a,b не может уместиться внутри прямоугольника со сторонами c,d"
+        document.getElementById("result").innerText = messageText + result;
+        document.getElementsByName('result')[0].value = result;
+        check = false;
+    }
+}
+
+function send() {
+    if (check) {
+        let textCondition = document.getElementsByTagName('p')[0].innerText
+        document.getElementsByName('formulation')[0].value = textCondition;
+        document.getElementsByName('result')[0].value = result;
+        document.getElementById("UserEnter").submit();
+    } else {
+        alert("Есть недостатки. Повторите ввод")
+    }
+}
+
+function verify_send() {
+    verify();
+    send();
+}
+
+let messageText = document.getElementById("result").innerText
+console.log(messageText)
+let result;
+let check = false;
+
+const elementA = document.getElementById("a");
+elementA.addEventListener('input', verify);
+
+const elementB = document.getElementById("b");
+elementB.addEventListener('keyup', verify);
+
+const elementC = document.getElementById("c");
+elementC.addEventListener('keyup', verify);
+
+const elementD = document.getElementById("d");
+elementC.addEventListener('keyup', verify);
+
+const elementVerify = document.getElementById("verify");
+elementVerify.addEventListener('click', verify);
+
+const elementSend = document.getElementById("send");
+elementSend.addEventListener('click', send)
+</script>
+</body>
