@@ -269,16 +269,16 @@ poisition: absolute;
         <div class="order">
     <form action="https://www.bing.com/" id="UserEnter" name="UserEnter" target="_blank">
         <div class="twin">
-        <input type="text" class="text" name="name"  placeholder="  имя">
-        <input type="text" class="text"  name="surname" placeholder="  фамилия">
+        <input type="text" class="text" name="name"  placeholder="  имя" value="Арина">
+        <input type="text" class="text"  name="surname" placeholder="  фамилия" value="Васильева">
             </div>
         <div class="twin">
-            <input type="password" class="text"  name="email" placeholder="  почта">
-            <input type="password" class="text"  name="phone" placeholder="  номер телефона">
+            <input type="password" class="text"  name="email" placeholder="  почта" value="emailthatnotexist@yandex.ru">
+            <input type="password" class="text"  name="phone" placeholder="  номер телефона" value-"8000988812">
         </div>
             <p class="formparagraph">Я хочу заказать:</p>
         <div>
-            <label class="labelcap">печенье <input type="checkbox" name="order" value="печенье"/></label>
+            <label class="labelcap">печенье <input type="checkbox" checked name="order" value="печенье"/></label>
              <label class="labelcap">капкейки <input  type="checkbox" name="order" value="капкейки"/></label>
             <label class="labelcap">торт <input type="checkbox" name="order" value="торт"/></label>
         </div>
@@ -288,15 +288,15 @@ poisition: absolute;
         <div class="twin">
             <select class="text" name="delivery">
                 <option  class="labelcap" selected disabled value="- Выберите значение -">способ доставки</option>
-                <option value="самовывоз" class="labelcap">  самовывоз </option>
+                <option value="самовывоз" selected class="labelcap">  самовывоз </option>
                 <option class="labelcap" value="курьер">  курьер </option>
             </select>
 
-            <input class="text" id="date" type="date" name="when"/>
+            <input class="text" id="date" type="date" name="when" value="2023-11-10"/>
             </div>
          <p class="formparagraph">Я хочу получать уведомления:</p>
         <div>
-            <input type="radio" id="byemail" name="notify" value="по электронной почте">
+            <input type="radio" id="byemail" checked name="notify" value="по электронной почте">
 <label class="labelcap" for="byemail">по электронной почте</label><br>
             <br>
 <input type="radio" id="byphone" name="notify" value="по номеру телефона">
