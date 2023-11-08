@@ -31,11 +31,11 @@
 
     if ((a <= c && b <= d) || (a <= d && b <= c)) {
         result = "Прямоугольник со сторонами a,b может уместиться внутри прямоугольника со сторонами c,d"
-        document.getElementById("result").innerText = messageText + result;
+        document.getElementById("result").innerText = result;
         document.getElementsByName('result')[0].value = result;
     } else {
         result = "Прямоугольник со сторонами a,b не может уместиться внутри прямоугольника со сторонами c,d"
-        document.getElementById("result").innerText = messageText + result;
+        document.getElementById("result").innerText = result;
         document.getElementsByName('result')[0].value = result;
     }
 }
@@ -47,9 +47,6 @@ function send() {
         document.getElementById("UserEnter").submit();
     }
 
-let messageText = document.getElementById("result").innerText
-console.log(messageText)
-let result;
 
 const elementA = document.getElementById("a");
 elementA.addEventListener('input', verify);
