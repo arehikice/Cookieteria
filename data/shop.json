@@ -85,7 +85,7 @@
     "vendor_code": "011",
     "description": "Описание 10",
     "price": 900,
-    "img": "../HTML/present1.png"
+    "img": "../HTML/present2.png"
   },
   {
     "id": "12",
@@ -93,6 +93,6 @@
     "vendor_code": "012",
     "description": "Описание 10",
     "price": 900,
-    "img": "../HTML/present1.png"
+    "img": "../HTML/present3.png"
   }
 ]
