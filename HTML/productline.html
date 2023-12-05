@@ -2,7 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>COOKIETERIA Ассортимент</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet">
 </head>
 <style>
     body {
@@ -24,6 +27,10 @@ h1 {
   margin-right: 35px;
         }
 
+        .navitem:hover {
+         color: #e5bf9c;
+        }
+
         .navitem1 {
         color: #545B55;
   font-size: 19px;
@@ -32,6 +39,10 @@ h1 {
   margin-right: 35px;
   text-decoration: underline;
    }
+
+.navitem1:hover {
+         color: #e5bf9c;
+        }
 
         .headerline {
         padding-top: 45x;
@@ -49,6 +60,10 @@ h1 {
   font-family: Raleway;
   text-align: center;
     }
+
+    .names:hover {
+         color: #e5bf9c;
+        }
 
     .tablesubheading {
     color: #545B55;
@@ -78,12 +93,22 @@ h1 {
      width: 70%;
       hight: 70%;
     }
+
+    .colortext {
+    width: 157px;
+    height: 44px;
+    background-color: #e5bf9c;
+    font-size: 16px;
+    font-family: raleway;
+    color: white;
+    letter-spacing: 4px;
+    border: none;
 </style>
 <title>COOKIETERIA Ассортимент</title>
 <body background="mainbg.png">
 <div class="header">
      <div class="headerline">
-        <a class="headertext" href="..\index.html">
+        <a class="headertext" href="index.html">
             <h1>COOKIETERIA</h1>
         </a>
          <div class="nav">
@@ -97,7 +122,7 @@ h1 {
      <div class="tables">
              <table>
                   <tr bgcolor="white">
-                      <td width="1275" colspan="3"> <p class="tableheading">/ОГРАНИЧЕННАЯ СЕРИЯ</p>
+                      <td width="1275" colspan="3"> <p class="tableheading"><br>/ОГРАНИЧЕННАЯ СЕРИЯ</p>
                           <p class="tablesubheading">Только до конца осени!</p>
                       </td>
                   </tr bgcolor="white">
@@ -133,6 +158,51 @@ h1 {
                   <img class="desert" src="napoleon.png">
                  <p> <a class="names" href="@">Наполеон</a></p>
                 </td>
+
+                  <tr bgcolor="white">
+                      <td width="1275" colspan="3"> <p class="tableheading">/АВТОРСКИЕ ПЕЧЕНЬЯ</p>
+                          <p class="tablesubheading">Только в нашей пекарне</p>
+                      </td>
+                 </tr bgcolor="white">
+                  <td align="center" bgcolor="white" width="255" height="230">
+                      <img class="desert" src="cookie1.png">
+                           <p> <a class="names" href="@">Шоколад со взбитыми сливками</a></p>
+                  </td>
+                <td align="center" bgcolor="white" width="255"  height="230">
+                  <img class="desert" src="cookie3.png">
+                 <p> <a class="names" href="@">Красная смородина <br>с апельсиновой цедрой</a></p>
+                </td>
+
+                 <td align="center" bgcolor="white" width="255"  height="230">
+                  <img class="desert" src="cookie2.png">
+                 <p> <a class="names" href="@">Матча с орео и шоколадной крошкой</a></p>
+                </td>
+
+                  <tr bgcolor="white">
+                      <td width="1275" colspan="3"> <p class="tableheading">/ПОДАРОЧНЫЕ НАБОРЫ</p>
+                          <p class="tablesubheading">Удивите родных и близких</p>
+                      </td>
+                 </tr bgcolor="white">
+                  <td align="center" bgcolor="white" width="255" height="230">
+                      <img class="desert" src="present1.png">
+                           <p> <a class="names" href="@">Ассорти печенья</a></p>
+                  </td>
+                <td align="center" bgcolor="white" width="255"  height="230">
+                  <img class="desert" src="present2.png">
+                 <p> <a class="names" href="@">Коллекция тартов</a></p>
+                </td>
+
+                 <td align="center" bgcolor="white" width="255"  height="230">
+                  <img class="desert" src="present3.png">
+                 <p> <a class="names" href="@">Ассорти капкейков</a></p>
+                </td>
+                 <tr bgcolor="white">
+                     <td width="1275" colspan="3"> <p class="tableheading">
+                 <a href="onlineshop.html">
+         <button class="colortext">В МАГАЗИН</button>
+     </a>
+    </td>
+
      </div>
 </div>
 
