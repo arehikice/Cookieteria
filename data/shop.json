@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "title": "Товар 1",
+    "title": "Тыквенные кексы",
     "vendor_code": "111",
     "description": "Описание 1",
     "price": 100,
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "title": "Товар 2",
+    "title": "Яблочные пончики",
     "vendor_code": "222",
     "description": "Описание 2",
     "price": 200,
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "title": "Товар 3",
+    "title": "Медовый морковный торт",
     "vendor_code": "333",
     "description": "Описание 3",
     "price": 300,
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "title": "Товар 4",
+    "title": "Павлова",
     "vendor_code": "444e",
     "description": "Описание 4",
     "price": 400,
@@ -34,7 +34,7 @@
   ,
   {
     "id": "5",
-    "title": "Товар 5",
+    "title": "Красный бархат",
     "vendor_code": "4445e",
     "description": "Описание 6",
     "price": 400,
@@ -42,7 +42,7 @@
   },
   {
     "id": "6",
-    "title": "Товар 6",
+    "title": "Наполеон,
     "vendor_code": "4446e",
     "description": "Описание 6",
     "price": 400,
@@ -50,7 +50,7 @@
   },
   {
     "id": "7",
-    "title": "Товар 7",
+    "title": "Шоколад со взбитыми сливками",
     "vendor_code": "4447e",
     "description": "Описание 7",
     "price": 700,
@@ -58,7 +58,7 @@
   },
   {
     "id": "8",
-    "title": "Товар 8",
+    "title": "Красная смородина с апельсиновой цедрой",
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
@@ -66,7 +66,7 @@
   },
   {
     "id": "9",
-    "title": "Товар 9",
+    "title": "Матча с орео и шоколадной крошкой",
     "vendor_code": "444e",
     "description": "Описание 9",
     "price": 400,
@@ -75,18 +75,28 @@
   ,
   {
     "id": "10",
-    "title": "Товар 10",
-    "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
-  },
-  {
-    "id": "11",
-    "title": "Товар 11",
+    "title": "Ассорти печенья",
     "vendor_code": "44411e",
     "description": "Описание 1",
     "price": 1100,
     "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+  }
+  ,
+  {
+    "id": "11",
+    "title": "Коллекция тартов",
+    "vendor_code": "444100e",
+    "description": "Описание 10",
+    "price": 900,
+    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
+  },
+  ,
+  {
+    "id": "12",
+    "title": "Ассорти капкейков",
+    "vendor_code": "444110e",
+    "description": "Описание 10",
+    "price": 900,
+    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
   }
 ]
