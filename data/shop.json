@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Тыквенные кексы",
-    "vendor_code": "111",
+    "vendor_code": "01",
     "description": "Описание 1",
     "price": 100,
     "img": "../HTML/pumpcup.png"
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "title": "Яблочные пончики",
-    "vendor_code": "222",
+    "vendor_code": "02",
     "description": "Описание 2",
     "price": 200,
     "img": "../HTML/appledonuts.png"
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "title": "Медовый морковный торт",
-    "vendor_code": "333",
+    "vendor_code": "03",
     "description": "Описание 3",
     "price": 300,
     "img": "../HTML/honeycarrot.png"
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "title": "Павлова",
-    "vendor_code": "444e",
+    "vendor_code": "04",
     "description": "Описание 4",
     "price": 400,
     "img": "../HTML/pavlova.png"
@@ -34,7 +34,7 @@
   {
     "id": "5",
     "title": "Красный бархат",
-    "vendor_code": "4445e",
+    "vendor_code": "05",
     "description": "Описание 6",
     "price": 400,
     "img": "../HTML/redvelvet.png"
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "title": "Наполеон",
-    "vendor_code": "4446e",
+    "vendor_code": "06",
     "description": "Описание 6",
     "price": 400,
     "img": "../HTML/napoleon.png"
@@ -50,7 +50,7 @@
   {
     "id": "7",
     "title": "Шоколад со взбитыми сливками",
-    "vendor_code": "4447e",
+    "vendor_code": "07",
     "description": "Описание 7",
     "price": 700,
     "img": "../HTML/cookie1.png"
@@ -58,7 +58,7 @@
   {
     "id": "8",
     "title": "Красная смородина с апельсиновой цедрой",
-    "vendor_code": "4448e",
+    "vendor_code": "08",
     "description": "Описание 8",
     "price": 800,
     "img": "../HTML/cookie2.png"
@@ -66,7 +66,7 @@
   {
     "id": "9",
     "title": "Матча с орео и шоколадной крошкой",
-    "vendor_code": "444e",
+    "vendor_code": "09",
     "description": "Описание 9",
     "price": 400,
     "img": "../HTML/cookie3.png"
@@ -74,7 +74,7 @@
   {
     "id": "10",
     "title": "Ассорти печенья",
-    "vendor_code": "44411e",
+    "vendor_code": "010",
     "description": "Описание 1",
     "price": 1100,
     "img": "../HTML/present1.png"
@@ -82,7 +82,7 @@
   {
     "id": "11",
     "title": "Коллекция тартов",
-    "vendor_code": "444100e",
+    "vendor_code": "011",
     "description": "Описание 10",
     "price": 900,
     "img": "../HTML/present1.png"
@@ -90,7 +90,7 @@
   {
     "id": "12",
     "title": "Ассорти капкейков",
-    "vendor_code": "444110e",
+    "vendor_code": "012",
     "description": "Описание 10",
     "price": 900,
     "img": "../HTML/present1.png"
