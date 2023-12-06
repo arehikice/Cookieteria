@@ -12,7 +12,7 @@ function sort(){
 
 async function getResponce() {
 
-    let responce = await fetch("shop.json")
+    let responce = await fetch("../data/shop.json")
 
     let content = await responce.text()
     console.log(content)
