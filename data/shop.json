@@ -3,96 +3,96 @@
     "id": "1",
     "title": "Тыквенные кексы",
     "vendor_code": "01",
-    "description": "Описание 1",
-    "price": 100,
+    "description": "тыква, корица, какао",
+    "price": 690,
     "img": "../HTML/pumpcup.png"
   },
   {
     "id": "2",
     "title": "Яблочные пончики",
     "vendor_code": "02",
-    "description": "Описание 2",
-    "price": 200,
+    "description": "яблоки, карамель",
+    "price": 390,
     "img": "../HTML/appledonuts.png"
   },
   {
     "id": "3",
     "title": "Медовый морковный торт",
     "vendor_code": "03",
-    "description": "Описание 3",
-    "price": 300,
+    "description": "мёд, морковь, чернослив, грецкие орехи",
+    "price": 1200,
     "img": "../HTML/honeycarrot.png"
   },
   {
     "id": "4",
     "title": "Павлова",
     "vendor_code": "04",
-    "description": "Описание 4",
-    "price": 400,
+    "description": "безе фрукты",
+    "price": 290,
     "img": "../HTML/pavlova.png"
   },
   {
     "id": "5",
     "title": "Красный бархат",
     "vendor_code": "05",
-    "description": "Описание 6",
-    "price": 400,
+    "description": "шоколад, вищня",
+    "price": 1500,
     "img": "../HTML/redvelvet.png"
   },
   {
     "id": "6",
     "title": "Наполеон",
     "vendor_code": "06",
-    "description": "Описание 6",
-    "price": 400,
+    "description": "классический с черешней",
+    "price": 1300,
     "img": "../HTML/napoleon.png"
   },
   {
     "id": "7",
     "title": "Шоколад со взбитыми сливками",
     "vendor_code": "07",
-    "description": "Описание 7",
-    "price": 700,
+    "description": "какао, карамель",
+    "price": 590,
     "img": "../HTML/cookie1.png"
   },
   {
     "id": "8",
-    "title": "Красная смородина с апельсиновой цедрой",
+    "title": "Матча с орео и шоколадной крошкой",
     "vendor_code": "08",
-    "description": "Описание 8",
-    "price": 800,
+    "description": "матча, орео, корица",
+    "price": 590,
     "img": "../HTML/cookie2.png"
   },
   {
     "id": "9",
-    "title": "Матча с орео и шоколадной крошкой",
+    "title": "Красная смородина с апельсиновой цедрой",
     "vendor_code": "09",
-    "description": "Описание 9",
-    "price": 400,
+    "description": "апельсиновая цедра, красная смородина",
+    "price": 590,
     "img": "../HTML/cookie3.png"
   },
   {
     "id": "10",
     "title": "Ассорти печенья",
     "vendor_code": "010",
-    "description": "Описание 1",
-    "price": 1100,
+    "description": "шоколадное, английское, ванильное, крем-брюле",
+    "price": 790,
     "img": "../HTML/present1.png"
   },
   {
     "id": "11",
     "title": "Коллекция тартов",
     "vendor_code": "011",
-    "description": "Описание 10",
-    "price": 900,
+    "description": "фруктово-ягодные",
+    "price": 890,
     "img": "../HTML/present2.png"
   },
   {
     "id": "12",
     "title": "Ассорти капкейков",
     "vendor_code": "012",
-    "description": "Описание 10",
-    "price": 900,
+    "description": "вишневый, шоколадный, карамельный",
+    "price": 790,
     "img": "../HTML/present3.png"
   }
 ]
